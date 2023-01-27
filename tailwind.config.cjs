@@ -5,7 +5,14 @@ module.exports = {
     './index.html'
   ],
   theme: {
-    extend: {},
+    extend: {
+        backgroundImage: {
+            'paisagem': "url(/src/assets/paisagem.png)",
+            'ceu': "url(/src/assets/ceu.jpg)",
+            'lua': "url(/src/assets/lua.png)",
+            'montanha': "url(/src/assets/montanhas.png)",
+        },
+    },
   },
   plugins: [],
 }
